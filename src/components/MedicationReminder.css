@@ -1,0 +1,113 @@
+/* Add these styles to your 'MedicationReminder.css' file */
+
+.medication-reminder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .medication-reminder div {
+    margin-bottom: 15px;
+  }
+  
+  .medication-reminder label {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .medication-reminder input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .medication-reminder input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .medication-reminder button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .medication-reminder button:hover {
+    background-color: #0056b3;
+  }
+  
+  .medication-reminder button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .medication-reminder button:disabled:hover {
+    background-color: #ccc;
+  }
+  
+  .medication-reminder button.voice-btn {
+    background-color: #28a745;
+    margin-left: 10px;
+  }
+  
+  .medication-reminder button.voice-btn:hover {
+    background-color: #218838;
+  }
+  
+  .medication-reminder p {
+    color: #ff3547;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .medication-reminder h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .medication-reminder ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .medication-reminder li {
+    font-size: 16px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+  }
+  
+  .medication-reminder li:last-child {
+    border-bottom: none;
+  }
+  
+  @media (min-width: 768px) {
+    .medication-reminder {
+      max-width: 600px;
+      margin: 20px auto;
+    }
+  }
+  

@@ -1,0 +1,45 @@
+/* Add these styles to your 'NewsFeed.css' file or your global stylesheet */
+
+.news-feed {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .news-feed h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .news-feed ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .news-feed li {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+  }
+  
+  .news-feed h3 {
+    color: #007bff;
+  }
+  
+  .news-feed p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .news-feed a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .news-feed a:hover {
+    text-decoration: underline;
+  }
+  
