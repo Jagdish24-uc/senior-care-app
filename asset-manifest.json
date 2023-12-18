@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/senior-care-app/static/css/main.696c2323.css",
+    "main.js": "/senior-care-app/static/js/main.542405ce.js",
+    "static/js/787.eb3db0ac.chunk.js": "/senior-care-app/static/js/787.eb3db0ac.chunk.js",
+    "index.html": "/senior-care-app/index.html",
+    "main.696c2323.css.map": "/senior-care-app/static/css/main.696c2323.css.map",
+    "main.542405ce.js.map": "/senior-care-app/static/js/main.542405ce.js.map",
+    "787.eb3db0ac.chunk.js.map": "/senior-care-app/static/js/787.eb3db0ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.696c2323.css",
+    "static/js/main.542405ce.js"
+  ]
+}
